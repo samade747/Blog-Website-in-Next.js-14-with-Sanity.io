@@ -1,14 +1,15 @@
 type Post = {
-    title: string;
-    summary: string;
-    image: {
-      asset: {
-        url: string;
-      };
+  title: string;
+  summary: string;
+  image: {
+    asset: {
+      _type: string;
+      _ref: string;
     };
-    slug: string;
   };
-  
+  slug: string;
+};
+
 
 // type Post = {
 //     title:string,
